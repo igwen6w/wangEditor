@@ -1,6 +1,8 @@
 wangEditor extension for laravel-admin
 ======
 
+升级了编辑器版本
+
 ## 安装
 
 ```bash
