@@ -8,7 +8,7 @@ wangEditor extension for laravel-admin
 ```bash
 // laravel-admin 1.x
 composer require igwen6w/wang-editor
-
+```
 
 ## 支持
 
