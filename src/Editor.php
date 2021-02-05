@@ -47,16 +47,18 @@ class Editor extends Field
 
     var E = window.wangEditor
     var editor = new E('#{$this->id}');
-    
+
     editor.config.uploadImgParams = {_token: '$token'}
-    
+
+    editor.config.uploadVideoParams = {_token: '$token'}
+
     Object.assign(editor.config, {$config})
-    
+
     editor.config.onchange = function (html) {
         $('#input-$id').val(html);
     }
     editor.create();
-    
+
     $('#{$this->id}').attr('initialized', 1);
 })(jQuery);
 EOT;
